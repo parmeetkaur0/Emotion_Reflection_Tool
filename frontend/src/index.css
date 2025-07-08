@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #1E3A8A;    
+  --secondary-color: #3B82F6; 
+  --accent-color: #10B981;     
+  --neutral-color: #F3F4F6;   
+  --dark-color: #1F2937;      
+}
+
+.custom-header {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.custom-button {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.custom-button:hover {
+  background-color: color-mix(in srgb, var(--secondary-color) 90%, transparent);
+}
+
+.custom-result-bar {
+  background-color: var(--accent-color);
+}
+
+body {
+  background-color: var(--neutral-color);
+  min-height: 100vh;
+}
