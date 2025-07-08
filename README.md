@@ -34,3 +34,21 @@ The Emotion Reflection Tool allows users to input text and receive an emotion an
    ```bash
    git clone https://github.com/parmeetkaur0/Emotion_Reflection_Tool.git
    cd emotion-reflection-tool
+2. **Backend Setup**:
+   ```bash
+   Navigate to the backend directory:
+      cd backend
+   Install backend dependencies:
+      pip install flask flask-cors
+   Start the backend server:
+      python app.py
+   The backend runs on http://localhost:5000.
+3. **Frontend Setup**:
+   ```bash
+   Navigate to the frontend directory:
+      cd frontend
+   Install frontend dependencies:
+      npm install
+   Start the development server:
+      npm run dev
+   The frontend runs on http://localhost:5173 (or as specified by the output).   
